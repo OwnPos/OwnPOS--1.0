@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- OwnPOS mark: an "O" that is also a padlock (your own business, kept secure),
+       with rising bars inside (managing it yourself). No bottle, on purpose. -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E2740"/>
+      <stop offset="1" stop-color="#14507A"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#1FA89B"/>
+      <stop offset="1" stop-color="#3FD8C8"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="256" height="256" rx="56" fill="url(#bg)"/>
+  <path d="M98 100 V78 A30 30 0 0 1 158 78 V100" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="128" cy="150" r="60" fill="none" stroke="#FFFFFF" stroke-width="20"/>
+  <rect x="99" y="158" width="15" height="26" rx="4" fill="url(#bar)"/>
+  <rect x="120.5" y="143" width="15" height="41" rx="4" fill="url(#bar)"/>
+  <rect x="142" y="126" width="15" height="58" rx="4" fill="#F4B942"/>
+</svg>

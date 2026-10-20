@@ -1,0 +1,9 @@
+# OwnPOS - Python packages (installed by install_windows.bat; packed into the program by build_exe.bat)
+PySide6>=6.6
+psycopg[binary]>=3.2      # PostgreSQL (the store database on the server PC)
+openpyxl>=3.1             # Excel export and .xlsx import
+xlrd>=2.0                 # old .xls files (QuickBooks POS exports)
+cryptography>=42          # licence signatures (Ed25519)
+pyserial>=3.5             # serial cash drawer, pole display
+anthropic>=0.40           # optional AI fallback of Ask OwnPOS
+pywin32>=306; sys_platform == "win32"   # cash drawer through the receipt printer
