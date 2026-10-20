@@ -1,8 +1,7 @@
 # OwnPOS
 
 Point of sale, inventory and built-in accounting for a liquor store in Indiana, with several registers sharing
-one store database (PostgreSQL) on a server PC. Built for Delock's Liquors (Munster, IN) to replace QuickBooks
-Point of Sale 2013 Pro, and modelled on its way of working.
+one store database (PostgreSQL) on a server PC. Built for Liquor store by client request(IN, USA) to replace Point of Sale 2subscription SaaS, and modelled on its way of working.
 
 Version 1.0.0
 
